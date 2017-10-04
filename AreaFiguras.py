@@ -10,7 +10,7 @@ class AreaFiguras():
 
         fig = input("De cual figura desea sacar el area? ")
         """
-
+        """
         if(int(figura) == 1):
             lado = input("cuanto mide el lado?")
 
@@ -47,7 +47,7 @@ class AreaFiguras():
             return "seleccionaste trapecio"
         else:
             return "no es una opcion valida"
-
+"""
 
 
     def obtenAreaCirculo(self, r):
