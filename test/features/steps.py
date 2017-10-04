@@ -29,7 +29,8 @@ def dado_que_tengo_la_altura_group1_y_base_group2(step, altura, base):
 def entonces_obtengo_el_area_de_rectangulo_group1(step, esperado):
     assert int(esperado) == world.arearec,'El resultado esperado de '\
     +esperado+" y el obtenido es "+str(world.arearec)
-@step(u'Dado que tengo la base mayor "([^"]*)", base menor "([^"]*)" y altura "([^"]*)"')
+@step(u'Dado que tengo la base mayor "([^"]*)",' \
+    + ' base menor "([^"]*)" y altura "([^"]*)"')
 def dado_que_tengo_la_base_mayor_group1_base_menor_group2_y_altura_group2(\
     step, basemay, basemen, altura):
     world.area = AreaFiguras()
